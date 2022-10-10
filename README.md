@@ -1,25 +1,39 @@
 # bhargabchipkg
-bhargabchipkg (pronounced “Bhargab chi package”) is an open-source package for applying chi square (a statistical test) which is helpful for mathematics, science, and engineering. Chi square is already written package available with scipy. But, this package(bhargabchipkg) will help you to sort out the salesman ranks (good or bad)
+**bhargabchipkg** (pronounced “Bhargab chi package”) is an open-source package for applying chi square (a statistical test) which is helpful for mathematics, science, and engineering. Chi square is already written package available with scipy. But, this package(bhargabchipkg) will help you to sort out the salesman ranks (good or bad)
+
+## How the dataset should be?
 
 It is applicable for sales data having minimum three columns:
  salesman id (or name, etc having more than one level).
  saleflag i.e. 0 and 1 where 0 refers unsold and 1 refers sold.
  type of item (only two levels i.e. two types of items).
 
-It takes four inputs:
-1. a dataframe with categorical columns for input as well as output
-2. Input categorical column name (more than one level)
-3. Output categorical column name(should have two levels 0 and 1. Where 0 refers unsold and 1 refers sold)
-4. Groupby column name(should have two levels)
-the column name must be passed as string (inside double inverted commas)
 
-You can find the example datasheet from this link: 
-You can see the output from this link: 
-
-How to install our package?
+# How to install our package?
 
 pip install bhargabchipkg
 
+# how to import and use?
+**from bhargabchipkg import chitest_rs
+obj=chitest_rs.ChiTest2(arg1,arg2,arg3,arg4)
+table,intpret=obj.chi_test()**
+
+## Arguments of the function chitest_rs.ChiTest2(arg1, arg2, arg3, arg4)
+
+It takes four inputs:
+arg1. a dataframe with categorical columns for input as well as output
+arg2. Input categorical column name (more than one level)
+arg3. Output categorical column name(should have two levels 0 and 1. Where 0 refers unsold and 1 refers sold)
+arg4. Groupby column name(should have two levels)
+
+
+**the column names (arg2, arg3, arg4) must be passed as string (inside double inverted commas)
+
+
+Useful links and licenses:
+
+You can find the example datasheet from this link:
+You can see the output from this link: 
 
 Website: https://www.businessbrio.com/
 
