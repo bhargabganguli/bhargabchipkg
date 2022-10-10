@@ -9,11 +9,11 @@ It is applicable for sales data having minimum three columns:
  type of item (only two levels i.e. two types of items).
 
 
-# How to install our package?
+## How to install our package?
 
 pip install bhargabchipkg
 
-# how to import and use?
+## how to import and use?
 **from bhargabchipkg import chitest_rs
 obj=chitest_rs.ChiTest2(arg1,arg2,arg3,arg4)
 table,intpret=obj.chi_test()**
