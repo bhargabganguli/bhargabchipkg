@@ -11,7 +11,9 @@ It is applicable for sales data having minimum three columns:
 
 ## How to install our package?
 
+...
 pip install bhargabchipkg
+...
 
 ## how to import and use?
 **from bhargabchipkg import chitest_rs
