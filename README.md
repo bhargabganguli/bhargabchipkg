@@ -15,7 +15,7 @@ It is applicable for sales data having minimum three columns:
 pip install bhargabchipkg
 ```
 
-## how to import and use?
+## how to import and use to get output?
 ```
 from bhargabchipkg import chitest_rs
 obj=chitest_rs.ChiTest2(arg1,arg2,arg3,arg4)
@@ -23,14 +23,19 @@ table,intpret=obj.chi_test()
 ```
 ## Arguments of the function chitest_rs.ChiTest2(arg1, arg2, arg3, arg4)
 
-It takes four inputs:
+** It takes four inputs: **
 arg1. a dataframe with categorical columns for input as well as output
 arg2. Input categorical column name (more than one level)
 arg3. Output categorical column name(should have two levels 0 and 1. Where 0 refers unsold and 1 refers sold)
 arg4. Groupby column name(should have two levels)
 
+the column names (arg2, arg3, arg4) must be passed as string (inside double inverted commas)
 
-**the column names (arg2, arg3, arg4) must be passed as string (inside double inverted commas)
+** It returns two: **
+return1: table
+return2: interpretation
+both are dictionary type
+
 
 
 Useful links and licenses:
