@@ -11,15 +11,16 @@ It is applicable for sales data having minimum three columns:
 
 ## How to install our package?
 
-...
+```
 pip install bhargabchipkg
-...
+```
 
 ## how to import and use?
+```
 **from bhargabchipkg import chitest_rs
 obj=chitest_rs.ChiTest2(arg1,arg2,arg3,arg4)
 table,intpret=obj.chi_test()**
-
+```
 ## Arguments of the function chitest_rs.ChiTest2(arg1, arg2, arg3, arg4)
 
 It takes four inputs:
