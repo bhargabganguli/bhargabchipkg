@@ -21,7 +21,7 @@ from bhargabchipkg import chitest_rs
 obj=chitest_rs.ChiTest2(arg1,arg2,arg3,arg4)
 table,intpret=obj.chi_test()
 ```
-## Arguments of the function chitest_rs.ChiTest2(arg1, arg2, arg3, arg4)
+## Arguments of the function chitest_rs.ChiTest2(arg1, arg2, arg3, arg4):
 
 **It takes four inputs:**
 
@@ -34,6 +34,10 @@ table,intpret=obj.chi_test()
 **arg4. Groupby column name(should have two levels)**
 
 the column names (arg2, arg3, arg4) must be passed as string (inside double inverted commas)
+
+    
+   
+   
 
 **It returns two:**
 
