@@ -15,13 +15,13 @@ It is applicable for sales data having minimum three columns:
 pip install bhargabchipkg
 ```
 
-## how to import and use to get output?
+## how to import and see the desired output?
 ```
 from bhargabchipkg import chitest_rs
 obj=chitest_rs.ChiTest2(arg1,arg2,arg3,arg4)
 table,intpret=obj.chi_test()
 ```
-## Arguments of the function chitest_rs.ChiTest2(arg1, arg2, arg3, arg4):
+## Arguments of the method chitest_rs.ChiTest2(arg1, arg2, arg3, arg4):
 
 **It takes four inputs:**
 
