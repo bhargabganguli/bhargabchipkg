@@ -1,17 +1,27 @@
 from distutils.core import setup
 
+
+long_description1 = """
+                      You can get the description by reading the readme.md file from my github.
+                      link of github:
+
+                      https://github.com/bhargabganguli/bhargabchipkg.git
+                    """
+
+
 setup(name='bhargabchipkg',
       packages = ['bhargabchipkg'],
-      version='0.0.1',
-      description='helpful chi-square package',
-      url='https://github.com/bhargabganguli/bhargabchipkg',
-      download_url = 'https://github.com/bhargabganguli/bhargabchipkg/archive/0.1.tar.gz', #FILL IN LATER
+      version='0.0.6',
+      description='helpful chi-square package for sales data',
+      long_description= long_description1,
+      url='https://github.com/bhargabganguli/bhargabchipkg.git',
+      download_url = 'https://github.com/bhargabganguli/bhargabchipkg/archive/0.0.6.tar.gz', #FILL IN LATER
       author='Bhargab',
       author_email='bhargab.ganguli@gmail.com',
       keywords = ['chi_test',],
       license='MIT', #YOUR LICENSE HERE!
 
-      install_requires=['pandas','numpy','scipy','math'],  #YOUR DEPENDENCIES HERE
+      install_requires=['pandas','numpy','scipy',],  #YOUR DEPENDENCIES HERE
   
 
       classifiers=[
