@@ -1,5 +1,5 @@
 # bhargabchipkg
-**bhargabchipkg** (pronounced “Bhargab chi package”) is an open-source package for applying chi square (a statistical test) which is helpful for mathematics, science, and engineering. Chi square is already written package available with scipy. But, this package(bhargabchipkg) will help you to sort out the salesman ranks (good or bad)
+**bhargabchipkg** (pronounced “Bhargab chi package”) is an open-source package for applying chi square test (a statistical test) which is helpful for mathematics, science, and engineering. Chi square is already written package available with scipy. But, this package(bhargabchipkg) will help you to sort out the salesman performance (good or bad).
 
 ## How the dataset should be?
 
@@ -55,9 +55,9 @@ both are dictionary type
  
  If you are getting error messages. Please check the following:
  Whether the arg1 passed is dataframe with no null or not
- Whether the arg2 is name of the column which has more than one levels ( multiple unique name or entries ).
- Whether the arg3 is name of the column which has only two levels ( only two unique name or entries ).
- Whether the arg4 is name of the column which has only two levels ( only two unique name or entries ).
+ Whether the arg2 is name of the salesman column which has more than one levels ( multiple unique names or entries ).
+ Whether the arg3 is name of the saleflag column which has only two levels ( only two unique name or entries 0 refers unsold and 1 refers sold).
+ Whether the arg4 is name of the group column which has only two levels ( only two unique names or entries ).
 
 
 
