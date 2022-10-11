@@ -20,6 +20,10 @@ pip install bhargabchipkg
 from bhargabchipkg import chitest_rs
 obj=chitest_rs.ChiTest2(arg1,arg2,arg3,arg4)
 table,intpret=obj.chi_test()
+print("Interpreted result:")
+print(intpret)
+print("table result:")
+print(table)
 ```
 ## Arguments of the method chitest_rs.ChiTest2(arg1, arg2, arg3, arg4):
 
