@@ -63,9 +63,11 @@ both are dictionary type
 
 Useful links and licenses:
 
-You can find the example datasheet from this link:
-You can see the output from this link: 
+**You can find the example datasheet from this link**:https://github.com/bhargabganguli/bhargabchipkg/blob/main/Test_Data.csv
 
+**You can see the output from this link (output is shown in text file)**: https://github.com/bhargabganguli/bhargabchipkg/blob/main/test_result.txt
+ 
+You can also see the tested python file : https://github.com/bhargabganguli/bhargabchipkg/blob/main/test_code.py
 
 Source code:https://github.com/bhargabganguli/bhargabchipkg.git
 
