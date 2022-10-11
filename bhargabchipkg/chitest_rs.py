@@ -25,7 +25,7 @@ class ChiTest2:
         self.column_name1=column_name1
         self.column_name2=column_name2
 
-    def chi_test(self):
+    def chi_test(self, n=30):
         
         
         
@@ -66,7 +66,7 @@ class ChiTest2:
         desc={}
         
         #What percentage of salesman do you want to filter out   
-        n = 30
+        #n = 30
 
         cat=self.df[self.column_name2].unique()
 
