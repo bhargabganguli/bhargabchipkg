@@ -75,7 +75,7 @@ Top 20% salesman in grp 2
 
 Bottom 20% salesman in grp 2.
 
-Grp 1 and grp 2 are the two levels of arg4
+N.B: Grp 1 and grp 2 are the two levels of arg4
 
    
    
