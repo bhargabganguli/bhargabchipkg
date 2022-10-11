@@ -51,6 +51,14 @@ the column names (arg2, arg3, arg4) must be passed as string (inside double inve
 
 both are dictionary type
 
+## Errors:
+ 
+ If you are getting error messages. Please check the following:
+ Whether the arg1 passed is dataframe with no null or not
+ Whether the arg2 is name of the column which has more than one levels ( multiple unique name or entries ).
+ Whether the arg3 is name of the column which has only two levels ( only two unique name or entries ).
+ Whether the arg4 is name of the column which has only two levels ( only two unique name or entries ).
+
 
 
 Useful links and licenses:
