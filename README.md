@@ -19,7 +19,7 @@ pip install bhargabchipkg
 ```
 from bhargabchipkg import chitest_rs
 obj=chitest_rs.ChiTest2(arg1,arg2,arg3,arg4)
-table,intpret=obj.chi_test()
+table,intpret=obj.chi_test(n=30)
 print("Interpreted result:")
 print(intpret)
 print("table result:")
@@ -39,17 +39,39 @@ print(table)
 
 the column names (arg2, arg3, arg4) must be passed as string (inside double inverted commas)
 
-    
-   
-   
-
 **It returns two:**
 
 **return1: table**
 
 **return2: interpretation**
 
-both are dictionary type
+both outputs are dictionary type.
+
+
+when you are calling the chi_square method from the object we created then you have one option (one argument to pass ) to change the Top and Bottom percentage 
+(by default this percentage is set to 30% ).
+
+For example:
+```
+from bhargabchipkg import chitest_rs
+obj=chitest_rs.ChiTest2(arg1,arg2,arg3,arg4)
+table,intpret=obj.chi_test(n=20)
+print("Interpreted result:")
+print(intpret)
+print("table result:")
+print(table)
+```
+In this above code you will get interpretation of the salesman performance like 
+Top 20% salesman in grp 1
+Bottom 20% salesman in grp 1.
+Top 20% salesman in grp 2
+Bottom 20% salesman in grp 2.
+
+Grp 1 and grp 2 are the two levels of arg4
+
+   
+   
+
 
 ## Errors:
  
