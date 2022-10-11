@@ -66,7 +66,6 @@ Useful links and licenses:
 You can find the example datasheet from this link:
 You can see the output from this link: 
 
-Website: https://www.businessbrio.com/
 
 Source code:https://github.com/bhargabganguli/bhargabchipkg.git
 
