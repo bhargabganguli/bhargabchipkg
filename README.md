@@ -62,9 +62,17 @@ print("table result:")
 print(table)
 ```
 In this above code you will get interpretation of the salesman performance like 
+
+Salesman good in both grp 1 and grp 2
+
+salesman bad in both grp 1 and grp 2
+
 Top 20% salesman in grp 1
+
 Bottom 20% salesman in grp 1.
+
 Top 20% salesman in grp 2
+
 Bottom 20% salesman in grp 2.
 
 Grp 1 and grp 2 are the two levels of arg4
