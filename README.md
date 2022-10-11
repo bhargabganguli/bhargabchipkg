@@ -33,9 +33,9 @@ print(table)
 
 **arg2. Input categorical column name (more than one level)**
 
-**arg3. Output categorical column name(should have two levels 0 and 1. Where 0 refers unsold and 1 refers sold)**
+**arg3. Output categorical column name (should have two levels 0 and 1. Where 0 refers unsold and 1 refers sold)**
 
-**arg4. Groupby column name(should have two levels)**
+**arg4. Group column name (should have two levels)**
 
 the column names (arg2, arg3, arg4) must be passed as string (inside double inverted commas)
 
